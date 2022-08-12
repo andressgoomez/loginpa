@@ -65,7 +65,7 @@ export const SignUpButton = styled(Button)`
 export const StyledFooter = styled.footer`
   height: 35px;
   min-width: 350px;
-  background-image: url("/public/fondoHeader.jpg");
+  background-image: url("/fondoHeader.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
