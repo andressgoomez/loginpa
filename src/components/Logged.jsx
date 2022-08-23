@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header.jsx'
+import Header from '../components/Header'
 import Footer from './Footer.jsx'
 import { useLocation, useNavigate } from 'react-router-dom';
-import { StyledContainer, LoginDivButton, Logo } from '../Styles.jsx'
+import { StyledContainer, LoginDivButton, Logo } from './styles'
 import { Box, Badge, Text, Avatar, AvatarBadge, Center } from '@chakra-ui/react'
 import { AiFillStar } from 'react-icons/ai'
 import ReactCardFlip from 'react-card-flip';
