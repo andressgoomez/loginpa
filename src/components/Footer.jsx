@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledFooter, StyledFooterLink } from '../Styles.jsx'
+import { StyledFooter, StyledFooterLink } from './styles'
 import { Center } from '@chakra-ui/react'
 
 const Footer = () => {

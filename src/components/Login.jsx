@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Header from '../components/Header.jsx'
+import Header from '../components/Header'
 import Footer from './Footer.jsx'
 import { Link } from 'react-router-dom'
 import { useLocation, useNavigate } from 'react-router-dom';
-import { StyledContainer, LoginDiv, TittleText, FormContainer, StyledFormControl, InlineText, LoginDivButton } from '../Styles.jsx'
+import { StyledContainer, LoginDiv, TittleText, FormContainer, StyledFormControl, InlineText, LoginDivButton } from './styles'
 import { Text, FormLabel, InputGroup, InputLeftElement, InputRightElement, Button, Input, useToast } from '@chakra-ui/react'
 import { BiLogIn } from 'react-icons/bi'
 import { AiOutlineEyeInvisible, AiOutlineEye } from 'react-icons/ai'
